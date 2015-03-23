@@ -1,0 +1,55 @@
+/*
+
+Author: Emily James
+
+*/
+
+body {
+	background: #1ee7e9;
+	font-size: 16px;
+	font-family: "Verdana";
+	color: #000000;
+	margin: 0;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	color: blue;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: lime;
+}
+
+a:visited {
+	color: blue;
+}
+
+/* Layout
+-----------------------------------------------*/
+
+#wrapper {
+	background: #fff;
+	}
+
+#navigation, 
+footer,
+#container {
+	
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0.5em 1em;
+}
+
+.secondary-content {
+	background: #FFF; 
+	border: 2px dashed black;
+	margin: 0.5em 1em;
+	padding: 0 1em;
+	max-width: 400px;
+}
